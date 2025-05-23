@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Page</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        width: 80%;
+        max-width: 600px;
+        text-align: center;
+      }
+      h1 {
+        color: #4a6fa5;
+        margin-bottom: 20px;
+      }
+      .btn {
+        background-color: #4a6fa5;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: all 0.3s;
+      }
+      .btn:hover {
+        background-color: #3a5a80;
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+      .features {
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0;
+      }
+      .feature {
+        padding: 15px;
+      }
+      .feature i {
+        font-size: 24px;
+        color: #4a6fa5;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Demo Page</h1>
+      <p>
+        This is a sample UI for your practice. Feel free to modify it as you
+        like.
+      </p>
+
+      <div class="features">
+        <div class="feature">
+          <i>⭐</i>
+          <h3>Feature One</h3>
+          <p>Simple and clean design</p>
+        </div>
+        <div class="feature">
+          <i>🔧</i>
+          <h3>Feature Two</h3>
+          <p>Easy to customize</p>
+        </div>
+        <div class="feature">
+          <i>🚀</i>
+          <h3>Feature Three</h3>
+          <p>Ready to use</p>
+        </div>
+      </div>
+
+      <button class="btn">Get Started</button>
+    </div>
+  </body>
+</html>

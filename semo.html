@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semo Page</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 20px;
+        color: #333;
+      }
+      header {
+        background-color: #6c757d;
+        color: white;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .card-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+      }
+      .card {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        transition: transform 0.3s;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      .card h3 {
+        color: #6c757d;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+      }
+      .progress-bar {
+        height: 10px;
+        background-color: #e9ecef;
+        border-radius: 5px;
+        margin: 10px 0;
+        overflow: hidden;
+      }
+      .progress {
+        height: 100%;
+        background-color: #6c757d;
+        width: 70%;
+      }
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        color: #6c757d;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Semo Dashboard</h1>
+      <p>Manage your content and settings</p>
+    </header>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>Statistics</h3>
+        <p>Total views: 1,240</p>
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Recent Activity</h3>
+        <p>User login: 5 min ago</p>
+        <p>File uploaded: 1 hour ago</p>
+      </div>
+      <div class="card">
+        <h3>Notifications</h3>
+        <p>3 new messages</p>
+        <p>System update available</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Semo UI. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
